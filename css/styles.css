@@ -33,10 +33,43 @@ header .header-icons-container{
 
 header .header-icons-container .icons{
     width: 300px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-self: end;
     justify-content: space-between;
     margin-right: 50px;
+}
+
+header .icons span{
+    color: white;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+.nav-logo-container{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+
+.profile-link{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+}
+
+nav .profile-link a{
+    border-bottom: 1px solid black;
 }
 
