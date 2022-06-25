@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body{
@@ -71,5 +74,56 @@ nav{
 
 nav .profile-link a{
     border-bottom: 1px solid black;
+    font-size: 2.5rem;
+}
+
+.hero{
+    background-image: url(../assets/img/coverr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.hero .hero-description{
+    margin-top: 50px;
+    font-size: 6rem;
+    letter-spacing: 1rem;
+}
+
+.hero .hero-cta{
+    align-self: start;
+    justify-self: center;
+}
+
+.hero .hero-cta button{
+    margin-top: 40px;
+    width: 150px;
+    height: auto;
+    padding: 15px;
+    font-size: 2rem;
+    background-color: #8AEA92;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.hero .hero-cta button:hover{
+    background-color: #47cfac;
+    transform: scale(1.1);
+    border: none;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
 }
 
