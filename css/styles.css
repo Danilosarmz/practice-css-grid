@@ -227,3 +227,25 @@ nav .profile-link a{
     padding: 15px;
 }
 
+/* Estilos del footer */
+
+footer{
+    display: grid;
+    grid-template-rows: 30px 70px;
+}
+
+.separate{
+    background-color: #8AEA92;
+}
+
+footer .footer-desc{
+    color: white;
+    background: #22272d;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
