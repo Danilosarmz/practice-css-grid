@@ -7,6 +7,18 @@
     font-size: 62.5%;
 }
 
+.home-body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
 
 a{
     text-decoration: none;
@@ -125,21 +137,27 @@ nav .profile-link a{
 
 /* Blogs-section */
 
-
-
-.principal-blog{
+main{
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    font-size: 4rem;
+}
+
+.principal-blog-container{
     width: 100%;
     height: 450px;
     background-color: #e6e9ed;
     align-items: center;
+    padding-top: 20px;
+}
+
+.principal-blog{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0 50px 40px;
+    font-size: 4rem;
 }
 
 .principal-blog__image{
-    margin-left: 150px;
-    align-self: center;
+    justify-self: center;
 }
 
 .principal-blog__image p{
@@ -148,23 +166,24 @@ nav .profile-link a{
     letter-spacing: 3px;
 }
 
+
 .principal-blog__image img{
-    width: 550px;
+    width: 85%;
     height: 350px;
     margin-top: 15px;
 }
 
 .principal-blog__description{
     justify-items: center;
-    margin-right: 150px;
-    font-size: 3rem;
-    letter-spacing: 2.5px;
+    font-size: 2.7rem;
+    letter-spacing: 2.7px;
+    align-self: center;
 }
 
 .principal-blog__description h2{
     margin-bottom: 15px;
     font-weight: bold;
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     letter-spacing: 2.5px;
 
 }
@@ -248,4 +267,34 @@ footer .footer-desc{
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (max-width: 1180px){
+    .principal-blog__description{
+    justify-items: center;
+    font-size: 2.5rem;
+    letter-spacing: 2.5px;
+    margin-right: 200px;
+}
+
+.principal-blog__description h2{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 2.7rem;
+    letter-spacing: 2.5px;
+}
+
+.principal-blog{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 50px 40px;
+    font-size: 4rem;
+    width: 100%;
+    height: 450px;
+    background-color: #e6e9ed;
+    align-items: center;
+}
+}
+
 
