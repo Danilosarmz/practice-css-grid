@@ -269,35 +269,6 @@ footer .footer-desc{
     align-items: center;
 }
 
-
-@media screen and (max-width: 1180px){
-    .principal-blog__description{
-    justify-items: center;
-    font-size: 2.5rem;
-    letter-spacing: 2.5px;
-    margin-right: 200px;
-}
-
-.principal-blog__description h2{
-    margin-bottom: 15px;
-    font-weight: bold;
-    font-size: 2.7rem;
-    letter-spacing: 2.5px;
-}
-
-.principal-blog{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 0 50px 40px;
-    font-size: 4rem;
-    width: 100%;
-    height: 450px;
-    background-color: #e6e9ed;
-    align-items: center;
-}
-}
-
 /* página de blog individual */
 
 .blogpost-img-container {
